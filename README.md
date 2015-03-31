@@ -43,10 +43,7 @@ $cCustomDimension->setCd('2', 'Some product name');
 $cCustomDimension->setCd('3', 'Some URL');
 $classGamp->addGroup($cCustomDimension);
 ```
-#### 5) Do tracking
-```
-$classGamp->track();
-```
+#### 5) Process tracking request
 ##### 5a) Set request type
 ```
 $classGamp->setRequestType('POST');
@@ -59,4 +56,7 @@ $classGamp->setFiltered(true);
 ```
 $classGamp->setRequestProtocol('SSL');
 ```
-
+##### 5c) Execute request
+```
+$classGamp->track();
+```
