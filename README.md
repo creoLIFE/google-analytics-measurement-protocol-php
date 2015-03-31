@@ -5,13 +5,12 @@ Google Analytict Measurement Protocol library implementation for PHP
 
 Usage
 ====
-1. Instance GAMP class
-
+1) Instance GAMP class
 ```
 $classGamp = new Gamp\Gamp();
 ```
 
-2. Set required general parameters for Payload
+2) Set required general parameters for Payload
 ```
 $cGeneral = new \Gamp\PayloadParamGroups\General();
 $cGeneral->setV(1);
