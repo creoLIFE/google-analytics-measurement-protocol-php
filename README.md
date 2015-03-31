@@ -22,7 +22,7 @@ $cUser->setCid($cUser->getCidNumber());
 $classGamp->addGroup($cUser);
 ```
 
-3. Set required HIT parameters for Payload
+3) Set required HIT parameters for Payload
 ```
 $cHit = new \Gamp\PayloadParamGroups\Hit();
 $cHit->setT('event'); //Event type
@@ -35,8 +35,8 @@ $cEvent->setEl('Some URL');
 $classGamp->addGroup($cEvent);
 ```
 
-4. Set another parameters - depends on your needs
-4a. Example custom dimensions
+4) Set another parameters - depends on your needs
+4a) Example custom dimensions
 ```
 $cCustomDimension = new \Gamp\PayloadParamGroups\CustomDimension();
 $cCustomDimension->setCd('1', 'TEST-001-A');
@@ -44,19 +44,19 @@ $cCustomDimension->setCd('2', 'Some product name');
 $cCustomDimension->setCd('3', 'Some URL');
 $classGamp->addGroup($cCustomDimension);
 ```
-5. Do tracking
+5) Do tracking
 ```
 $classGamp->track();
 ```
-5a. Set request type
+5a) Set request type
 ```
 $classGamp->setRequestType('POST');
 ```
-5b. Remove not used (unset) parameters from request
+5b) Remove not used (unset) parameters from request
 ```
 $classGamp->setFiltered(true);
 ```
-5c. Set protocol
+5c) Set protocol
 ```
 $classGamp->setRequestProtocol('SSL');
 ```
