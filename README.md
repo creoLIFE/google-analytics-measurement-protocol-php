@@ -5,7 +5,9 @@ Google Analytict Measurement Protocol library implementation for PHP
 
 Usage
 ====
+
 1) Instance GAMP class
+=====
 ```
 $classGamp = new Gamp\Gamp();
 ```
