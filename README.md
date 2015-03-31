@@ -7,7 +7,7 @@ Usage
 ====
 
 1) Instance GAMP class
-===
+==
 ```
 $classGamp = new Gamp\Gamp();
 ```
