@@ -1,5 +1,5 @@
-# Google Analytict Measurement Protocol PHP 
-Google Analytict Measurement Protocol library implementation for PHP
+# Google Analytics Measurement Protocol PHP
+Google Analytics Measurement Protocol library implementation for PHP
 
 
 ### Usage
